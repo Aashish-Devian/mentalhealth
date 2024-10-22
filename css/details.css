@@ -5,15 +5,6 @@
     box-sizing: border-box;
 }
 
-.title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.3rem;
-    color: #fff;
-}
-
-
 /* Horizontal Search & Support Section */
 
 #support-link {
@@ -31,6 +22,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    margin: 10px;
 }
 
 .search-box {
@@ -53,21 +45,6 @@
     background-color: #83b397;
 }
 
-.get-started-btn {
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-size: 1rem;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
-    color: #fff;
-    text-decoration: none;
-}
-
-.get-started-btn:hover {
-    background-color: #4c8f68;
-    color: #ffffff;
-}
-
 /* Hero Section */
 .hero {
     background-color: #f7e0e0;
@@ -76,8 +53,6 @@
 }
 
 .hero h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
     color: #fff;
 }
 
@@ -98,6 +73,7 @@
 .articles {
     padding: 30px;
     background-color: #00695c;
+    height: 29rem;
 }
 
 .category h2 {
