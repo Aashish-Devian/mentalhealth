@@ -49,7 +49,7 @@
 }
 
 .emergency-section h2 {
-    color: black;
+    color: #fff;
 }
 
 .emergency-list ul {
@@ -64,7 +64,7 @@
 
 .emergency-list .code {
     font-weight: bold;
-    color: black;
+    color: #fff;
     margin-right: 10px;
 }
 
